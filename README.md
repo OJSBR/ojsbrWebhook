@@ -1,10 +1,10 @@
 # OJSBR Webhook — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.4-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.1.0.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-4.0.0.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.4](https://github.com/OJSBR/ojsbrWebhook/releases/download/1.1.0.0/ojsbrWebhook-1.1.0.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.4](https://github.com/OJSBR/ojsbrWebhook/releases/download/4.0.0.0/ojsbrWebhook-4.0.0.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that sends an HTTP webhook when a
 submission is created and when an article is actually published, so that other systems
@@ -17,7 +17,7 @@ submission is created and when an article is actually published, so that other s
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.4.x   | [`stable-3_4_0`](../../tree/stable-3_4_0) *(default)* | 1.1.0.0 |
+| OJS 3.4.x   | [`stable-3_4_0`](../../tree/stable-3_4_0) *(default)* | 4.0.0.0 |
 
 > **Upgrade from 1.0.0.x.** Earlier versions saved the endpoints and ran the *Test* button
 > without checking the form's CSRF token, so a page opened by a logged-in journal manager
@@ -163,7 +163,7 @@ de mensagens, automação) reajam sem ficar consultando o OJS.
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.4.x     | [`stable-3_4_0`](../../tree/stable-3_4_0) *(padrão)* | 1.1.0.0 |
+| OJS 3.4.x     | [`stable-3_4_0`](../../tree/stable-3_4_0) *(padrão)* | 4.0.0.0 |
 
 > **Atualização a partir da 1.0.0.x.** As versões anteriores salvavam os endpoints e rodavam o
 > botão *Testar* sem conferir o token CSRF do formulário: uma página aberta por um gestor logado
